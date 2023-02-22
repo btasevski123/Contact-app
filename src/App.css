@@ -1,0 +1,84 @@
+.Contact {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.Contact h4 {
+  font-size: 22px;
+  margin-left: 15px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.Contact ul {
+  list-style-type: none;
+  line-height: 3;
+  margin-left: 5px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 10px;
+}
+
+.Contact ul li {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+.Contact i {
+  cursor: pointer;
+}
+
+
+.AddContact h2{
+  font-size: 40px;
+}
+
+.AddContact p {
+  margin-top: -15px;
+  font-size: 14px;
+  color: red;
+}
+
+.AddContact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.AddContact form {
+  text-align: left;
+
+}
+.AddContact input {
+  padding: 5px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+
+body {
+  background: #000046;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-  25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: Roboto;
+}
+
+input {
+  display: block;
+  font-size: 18px;
+  background-color: #f2f2f2;
+  width: 100%;
+  padding: 13px 13px 13px 20px;
+  box-sizing: border-box;
+  color: #2980b9;
+}
+
+input:focus {
+  background: #fff;
+  outline: none;
+}
